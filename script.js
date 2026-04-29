@@ -1,20 +1,36 @@
-function runCode() {
+function add(a, b) {
+    return a + b;
+}
+
+function subtract(a, b) {
+    return a - b;
+}
+
+function multiply(a, b) {
+    return a * b;
+}
+
+function divide(a, b) {
+    return a / b;
+}
+
+function execute() {
 
     var name = "Sakthi";
 
-    const a = 12;
-    const b = 4;
+    const x = 20;
+    const y = 5;
 
-    let sum = a + b;
-    let difference = a - b;
-    let product = a * b;
-    let division = a / b;
+    let sum = add(x, y);
+    let sub = subtract(x, y);
+    let prod = multiply(x, y);
+    let div = divide(x, y);
 
-    product = product + 15;
+    prod = prod + 10;
 
     console.log(name);
     console.log(sum);
-    console.log(difference);
-    console.log(product);
-    console.log(division);
+    console.log(sub);
+    console.log(prod);
+    console.log(div);
 }
